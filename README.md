@@ -43,6 +43,27 @@ Follows Github users and also their followers from a user provided list of Githu
     python -m followbot.bot
     ```
 
+# Development & Contribution
+
+* After cloning the repo, activate python environment and run:
+
+    ```
+    pip install -r requirements-dev.txt
+    ```
+
+* Make your proposed changes
+* Before sending a PR, lint the code with:
+
+    ```
+    make pylinter
+    ```
+    
+* To upgrade the dependencies and sync your environment, run:
+
+    ```
+    make pyupgrade
+    ```
+
 ## Disclaimer
 
 I created this just to fiddle with some [selenium](https://selenium-python.readthedocs.io/). The code could be polished. Also, it's debatable whether you should use a bot to follow people or not. Use at your own risk 🤷‍♂️
