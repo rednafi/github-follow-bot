@@ -1,6 +1,7 @@
 <div align="center">
 
-![alt](./art/bot.png)
+
+<img src="./art/bot.png" alt="Bot logo" width="300" height="356.5">
 
 # Github Follow Bot
 
