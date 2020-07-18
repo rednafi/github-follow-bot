@@ -10,4 +10,4 @@ YOUR_PASS = "yourpass"
 
 # List of people's github usernames whose followers you want to follow
 # This could be even yourself
-TARGET_NAMES_LIST = ["rednafi"]
+TARGET_NAMES_LIST = ["rednafi", "gvanrossum"]
