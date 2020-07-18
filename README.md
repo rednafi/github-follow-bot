@@ -26,7 +26,7 @@ Follows Github users and also their followers from a user provided list of Githu
 * Provide your Chrome Driver path, credentials and the target users' Github usernames:
 
     ```python
-    CHROME_DRIVER_PATH = "./    chromedriver_linux64/chromedriver"
+    CHROME_DRIVER_PATH = "./chromedriver_linux64/chromedriver"
 
     # Put your github username and password here
     YOUR_NAME = "yourname"
