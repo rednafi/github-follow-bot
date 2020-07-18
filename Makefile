@@ -16,7 +16,6 @@ all:
 
 .PHONY: checkvenv
 checkvenv:
-
 # raises error if environment is not active
 ifeq ("$(VIRTUAL_ENV)","")
 	@echo "Venv is not activated!"
@@ -46,7 +45,6 @@ endif
 
 .PHONY: pylinter
 pylinter: checkvenv
-
 # checks if black is installed
 ifeq ("$(wildcard venv/bin/black)","")
 	@echo "Installing Black..."
