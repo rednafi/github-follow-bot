@@ -14,8 +14,8 @@ line := 88
 all:
 	@echo
 
-.PHONY: pylinter
-pylinter:
+.PHONY: checkvenv
+checkvenv:
 
 # raises error if environment is not active
 ifeq ("$(VIRTUAL_ENV)","")
@@ -24,6 +24,9 @@ ifeq ("$(VIRTUAL_ENV)","")
 	@echo
 	exit 1
 endif
+
+.PHONY: pylinter
+pylinter: checkvenv
 
 # checks if black is installed
 ifeq ("$(wildcard venv/bin/black)","")
@@ -65,3 +68,4 @@ endif
 			--ignore "E203,E266,E501,W503,F403,F401,E402" \
 			--exclude ".git,__pycache__,old, build, \
 						dist, venv"
+
