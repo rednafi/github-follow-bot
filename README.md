@@ -43,7 +43,7 @@ Follows Github users and also their followers from a user provided list of Githu
     python -m followbot.bot
     ```
 
-# Development & Contribution
+## Development & Contribution
 
 * After cloning the repo, activate python environment and run:
 
@@ -57,7 +57,7 @@ Follows Github users and also their followers from a user provided list of Githu
     ```
     make pylinter
     ```
-    
+
 * To upgrade the dependencies and sync your environment, run:
 
     ```
