@@ -48,7 +48,7 @@ Follows Github users and also their followers from a user provided list of Githu
 * After cloning the repo, activate python environment and run:
 
     ```
-    pip install -r requirements-dev.txt
+    pip install -r requirements-dev.txt && pip install -r requirements.txt
     ```
 
 * Make your proposed changes
