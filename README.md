@@ -66,4 +66,4 @@ Follows Github users and also their followers from a user provided list of Githu
 
 ## Disclaimer
 
-I created this just to fiddle with some [selenium](https://selenium-python.readthedocs.io/). The code could be polished. Also, it's debatable whether you should use a bot to follow people or not. Use at your own risk 🤷‍♂️
+I created this just to fiddle with some [selenium](https://selenium-python.readthedocs.io/). The code could be polished. Moreover, it's debatable whether you should use a bot to follow people or not. Also, there is a high chance that Github will flag you as a spam user and ban your public profile. Use at your own risk 🤷‍♂️
